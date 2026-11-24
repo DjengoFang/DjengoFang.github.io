@@ -2,7 +2,7 @@
 title = "Can a Language Model Improve a Robot Policy by Editing Its Weights?"
 date = 2026-11-24
 weight = 15
-authors = ["Djengo Cyun-Jyun Fang"]
+authors = ["**Djengo Cyun-Jyun Fang**", "Zhiqi Chen", "[Andrea Zanette](https://azanette.com) (advisor)"]
 publication_types = ["4"]
 selected = false
 tldr = "Frontier models read a policy network's weights and rewrite them by hand, with no gradient training: simple faults get repaired, and one drawer-opening controller written from nothing reaches 99.85% success."
