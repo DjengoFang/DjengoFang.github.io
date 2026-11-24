@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Djengo Cyun-Jyun Fang</title>
+    <link>https://djengofang.github.io/publication_types/3/</link>
+    <description>Recent content in 3 on Djengo Cyun-Jyun Fang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2026 Djengo Cyun-Jyun Fang</copyright>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://djengofang.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code as Primitives: Harnessing Frontier Models to Synthesize Low-Level Robotic Skills</title>
+      <link>https://djengofang.github.io/publication/chen-2026-code-as-primitives/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/chen-2026-code-as-primitives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation</title>
+      <link>https://djengofang.github.io/publication/wu-2026-cronos/</link>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 -0500</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/wu-2026-cronos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Seeking for Robust Decision Making under Partial Observability</title>
+      <link>https://djengofang.github.io/publication/fang-2026-infoseeker/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/fang-2026-infoseeker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

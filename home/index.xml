@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Djengo Cyun-Jyun Fang</title>
+    <link>https://djengofang.github.io/home/</link>
+    <description>Recent content in Homes on Djengo Cyun-Jyun Fang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2026 Djengo Cyun-Jyun Fang</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://djengofang.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://djengofang.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/home/about/</guid>
+      <description>M.S. student in Machine Learning · Carnegie Mellon University
+I am a master&amp;rsquo;s student in the Machine Learning Department at Carnegie Mellon University, where I worked with Prof. Andrea Zanette on harnesses in which frontier models write low-level robot skills as code. Formerly, I was a research assistant in the Embodied AI Lab at National Taiwan University working with Prof. Tsung-Wei Ke on LLM agents that seek information before they plan, and on reinforcement learning fine-tuning of vision-language-action models.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://djengofang.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/home/publications/</guid>
+      <description>My work focuses on LLM agents and robot learning. Much of it aims at getting foundation models to act reliably in the physical world, where an agent has incomplete information and its assumptions about the world can be wrong. To these ends, I have worked on harnesses in which frontier models write robot control code, information-seeking LLM planners, and RL fine-tuning of vision-language-action models.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://djengofang.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/home/teaching/</guid>
+      <description>Teaching Assistant · Interactive System Design and ImplementationNational Taiwan UniversityFall 2024 Teaching Assistant · Computer System LaboratoryNational Taiwan UniversitySpring 2024  </description>
+    </item>
+    
+    <item>
+      <title>Academic Service</title>
+      <link>https://djengofang.github.io/home/service/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/home/service/</guid>
+      <description>Student Volunteer · IROS 2026IEEE/RSJ International Conference on Intelligent Robots and Systems2026 Head of Technical Teaching Team · OpenHCI WorkshopStudent-run human-computer interaction workshop, Taipei2024  </description>
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>https://djengofang.github.io/home/awards/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/home/awards/</guid>
+      <description>Outstanding Teaching Assistant Award · top 10% of the collegeNTU College of Electrical Engineering and Computer ScienceFall 2024 Certificates of Thanks · three awardsNTU CSIE Student Association2022  </description>
+    </item>
+    
+  </channel>
+</rss>

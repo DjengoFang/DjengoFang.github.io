@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Djengo Cyun-Jyun Fang on Djengo Cyun-Jyun Fang</title>
+    <link>https://djengofang.github.io/</link>
+    <description>Recent content in Djengo Cyun-Jyun Fang on Djengo Cyun-Jyun Fang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2026 Djengo Cyun-Jyun Fang</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agent-Written Code Policies: Generalization to Unseen Objects</title>
+      <link>https://djengofang.github.io/publication/fang-2026-microwave-variants/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 -0500</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/fang-2026-microwave-variants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code as Primitives: Harnessing Frontier Models to Synthesize Low-Level Robotic Skills</title>
+      <link>https://djengofang.github.io/publication/chen-2026-code-as-primitives/</link>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/chen-2026-code-as-primitives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRONOS: Benchmarking Non-Episodic Reinforcement Learning for Robotic Manipulation</title>
+      <link>https://djengofang.github.io/publication/wu-2026-cronos/</link>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 -0500</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/wu-2026-cronos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information Seeking for Robust Decision Making under Partial Observability</title>
+      <link>https://djengofang.github.io/publication/fang-2026-infoseeker/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/fang-2026-infoseeker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Unified Data Framework for Insurance Providers</title>
+      <link>https://djengofang.github.io/publication/fang-insurance-data-framework/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 -0400</pubDate>
+      
+      <guid>https://djengofang.github.io/publication/fang-insurance-data-framework/</guid>
+      <description>&lt;p&gt;Research and design work at &lt;a href=&#34;https://www.csie.ntu.edu.tw/en/Research/TeachingLab/-10281881&#34; target=&#34;_blank&#34;&gt;ABClab&lt;/a&gt;, National Taiwan University, advised by Prof. Shih-Wei Liao: a unified data framework for insurance providers, and the report behind it. The framework was adopted by the &lt;a href=&#34;https://www.lia-roc.org.tw&#34; target=&#34;_blank&#34;&gt;Life Insurance Association of the Republic of China&lt;/a&gt; to launch a wallet app integrating Taiwan&amp;rsquo;s top 20 insurance providers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
