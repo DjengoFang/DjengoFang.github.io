@@ -28,7 +28,7 @@ I am a master&amp;rsquo;s student in the Machine Learning Department at Carnegie
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>https://djengofang.github.io/home/publications/</guid>
-      <description>My work focuses on LLM agents and robot learning. Much of it aims at getting foundation models to act reliably in the physical world, where an agent has incomplete information and its assumptions about the world can be wrong. To these ends, I have worked on harnesses in which frontier models write robot control code, information-seeking LLM planners, and RL fine-tuning of vision-language-action models.</description>
+      <description>My work focuses on multimodal language models and robot learning. Much of it aims at getting foundation models to act reliably in the physical world, where an agent has incomplete information and its assumptions about the world can be wrong. To these ends, I have worked on harnesses in which frontier models write robot control code, information-seeking LLM planners, and RL fine-tuning of vision-language-action models.</description>
     </item>
     
     <item>
