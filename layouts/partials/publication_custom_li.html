@@ -1,0 +1,77 @@
+<div class="row pub-row">
+    {{ $main_url := $.RelPermalink }}
+    {{ if $.Params.url_pdf }}
+        {{ $main_url = $.Params.url_pdf }}
+    {{ else if $.Params.url_project }}
+        {{ $main_url = $.Params.url_project }}
+    {{ end }}
+    <div class="col-12 col-lg-3 pub-thumb">
+        <div>
+            {{ $image := (.Resources.ByType "image").GetMatch "*featured*" }}
+            {{ $video := .Resources.GetMatch "*featured*.mp4" }}
+            {{ if $video }}
+            <a href="{{ $main_url }}">
+                <video class="paper-teaser" autoplay muted loop playsinline preload="metadata"{{ with $image }} poster="{{ .Permalink }}"{{ end }}>
+                    <source src="{{ $video.Permalink }}" type="video/mp4">
+                </video>
+            </a>
+            {{ else if $image }}
+            <a href="{{ $main_url }}">
+                <img src="{{ $image.Permalink }}" itemprop="image" class="paper-teaser">
+            </a>
+            {{ else }}
+            <div class="paper-teaser paper-teaser-empty" aria-hidden="true"><i class="fas fa-file-alt"></i></div>
+            {{ end }}
+        </div>
+    </div>
+    <div class="col-12 col-lg-9">
+        <div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+        <div class="media-body">
+
+            <h3 class="article-title mb-0 mt-0" itemprop="name">
+            <a href="{{ $main_url }}" itemprop="url">{{ .Title }}</a>
+            </h3>
+
+            <div class="stream-meta">
+                <div itemprop="author">
+                    {{ $n := len .Params.authors }}
+                    {{ range $i, $a := .Params.authors }}
+                    {{ if eq $a $.Site.Params.name }}<b>{{ $a | markdownify }}</b>{{ else }}{{ $a | markdownify }}{{ end }}{{ if lt (add $i 1) $n }},{{ end }}
+                    {{ end }}
+                </div>
+            </div>
+
+            {{ if .Params.venue }}
+            <div class="pub-venue-line">
+                <span class="pub-venue">{{ .Params.venue | markdownify }}</span>
+                {{ with .Params.note }}<span class="pub-note">{{ . | markdownify }}</span>{{ end }}
+            </div>
+            {{ end }}
+
+            <div class="btn-links">
+            {{ partial "page_links_custom" (dict "content" . "is_list" 1) }}
+            </div>
+
+            {{ with .Params.tldr }}
+            <div class="pub-tldr">{{ . | markdownify }}</div>
+            {{ end }}
+
+            {{ $summary := "" }}
+            {{ $shortname := .Params.shortname}}
+            {{ if .Params.abstract_short }}
+            {{ $summary = .Params.abstract_short | markdownify }}
+            {{ else if .Params.abstract }}
+            {{ $summary = .Params.abstract | markdownify }}
+            {{ else if .Truncated }}
+            {{ $summary = .Summary }}
+            {{ end }}
+            {{ with $summary }}
+            <div class="article-style abstract-block" itemprop="articleBody" id="{{ $shortname }}_abstract" style="display: none;">
+            {{ . }}
+            </div>
+            {{ end }}
+
+        </div>
+        </div>
+    </div>
+</div>
