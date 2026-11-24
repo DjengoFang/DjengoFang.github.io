@@ -7,8 +7,6 @@ publication_types = ["3"]
 selected = false
 tldr = "Frontier models write low-level dexterous robot skills as executable control programs, with no expert demonstrations."
 shortname = "chen2026codeasprimitives"
-publication = "*Extended abstract, 2026*"
-venue = "Extended abstract, 2026"
 note = "\\* equal contribution"
 url_project = "https://zhiqichen05.github.io/Code-as-Primitives/"
 +++

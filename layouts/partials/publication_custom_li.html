@@ -41,9 +41,9 @@
                 </div>
             </div>
 
-            {{ if .Params.venue }}
+            {{ if or .Params.venue .Params.note }}
             <div class="pub-venue-line">
-                <span class="pub-venue">{{ .Params.venue | markdownify }}</span>
+                {{ with .Params.venue }}<span class="pub-venue">{{ . | markdownify }}</span>{{ end }}
                 {{ with .Params.note }}<span class="pub-note">{{ . | markdownify }}</span>{{ end }}
             </div>
             {{ end }}
