@@ -37,4 +37,4 @@ publication_type = "-1"
 exclude_selected = false
 +++
 
-My work focuses on **LLM agents and robot learning**. Much of it aims at getting foundation models to act reliably in the physical world, where an agent has incomplete information and its assumptions about the world can be wrong. To these ends, I have worked on harnesses in which frontier models write robot control code, information-seeking LLM planners, and RL fine-tuning of vision-language-action models.
+My work focuses on **multimodal language models and robot learning**. Much of it aims at getting foundation models to act reliably in the physical world, where an agent has incomplete information and its assumptions about the world can be wrong. To these ends, I have worked on harnesses in which frontier models write robot control code, information-seeking LLM planners, and RL fine-tuning of vision-language-action models.

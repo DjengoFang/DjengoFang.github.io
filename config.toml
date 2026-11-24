@@ -115,7 +115,7 @@ enableRobotsTXT = true
   font = "default"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = "Djengo Cyun-Jyun Fang (Djengo Fang) is an M.S. student in Machine Learning at Carnegie Mellon University working on LLM agents and robot learning: frontier models that write robot control code, vision-language-action models and reinforcement learning."
+  description = "Djengo Cyun-Jyun Fang (Djengo Fang) is an M.S. student in Machine Learning at Carnegie Mellon University working on multimodal language models and robot learning: frontier models that write robot control code, vision-language-action models and reinforcement learning."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
   sharing_image = "head.jpg"
